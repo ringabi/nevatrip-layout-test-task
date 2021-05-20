@@ -1,0 +1,593 @@
+html,
+body,
+img,
+div,
+section,
+header,
+article {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Open Sans';
+  src: url("../assets/fonts/OpenSans-Regular.ttf");
+}
+
+.font-family-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.frame {
+  border: 0.3px solid #828282;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 1rem;
+}
+
+.frame_width,
+.frame_width-2 {
+  width: Min(600px, calc(100vw - 2 * 17px));
+}
+
+.frame_height-1 {
+  height: Max(603px, calc(1.77 * (100vw - 2 * 17px)));
+  max-height: 760px;
+}
+
+.frame_height-2 {
+  height: Max(675px, calc(1.98 * (100vw - 2 * 17px)));
+  max-height: 760px;
+}
+
+.image {
+  width: Min(600px, calc(100vw - (2 * 17px) + 0.5px));
+  border-radius: 1rem 1rem 0 0;
+}
+
+.image-height-1 {
+  height: Min(370px, calc((100vw - (2 * 17px)) / 1.55));
+}
+
+.image-height-2 {
+  height: Min(369px, calc((100vw - (2 * 17px)) / 1.215));
+}
+
+.image-bg-1 {
+  background: no-repeat center/100% url("../images/sankt-peterburg-piter-st-3495.png");
+}
+
+.image-bg-2 {
+  background: no-repeat center/128% url("../images/sankt-peterburg-piter-st-3495.png");
+}
+
+.novelty {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.novelty-1 {
+  top: 67px;
+  width: 99px;
+  height: 35px;
+  font-size: 12px;
+  color: #3e3e3e;
+  background-color: #fed74b;
+}
+
+.novelty-2 {
+  top: 0;
+  width: 129px;
+  height: 43px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #7553ff;
+  border-radius: 15px 0 12px;
+}
+
+.small-one {
+  position: absolute;
+  top: 76px;
+  right: 22px;
+  font-size: 8px;
+  line-height: 24px;
+  color: #000;
+}
+
+.circle-with-point {
+  position: absolute;
+  top: 105px;
+  right: 26px;
+}
+
+.excursion-duration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #9e9e9e;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.excursion-title {
+  width: 317px;
+  max-width: calc(100vw - 2 * 17px - 2 * 12px);
+  color: #404040;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.excursion-start,
+.excursion-start-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 63px;
+  height: 24px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #343434;
+  border-radius: 11px;
+  background-color: #d9e8ff;
+}
+
+.excursion-start:hover,
+.excursion-start-2:hover {
+  color: #fff;
+  background-color: #6ba6ff;
+  -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.list-style-check-mark {
+  list-style-image: url("../images/check-mark.png");
+  padding-left: 32px;
+}
+
+li {
+  width: 243px;
+  color: #4b4b4b;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.price {
+  font-size: 30px;
+  line-height: 20px;
+  color: #000;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.berth-price {
+  font-size: 10px;
+  line-height: 11px;
+  color: #000;
+}
+
+.button {
+  height: 44px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0.5px solid #cba500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #404040;
+  background-color: #fed74b;
+  cursor: pointer;
+}
+
+.button-1 {
+  width: 165px;
+  border-radius: 20px;
+}
+
+.button-2 {
+  width: 193px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+#second-screen-mobile {
+  position: relative;
+  top: 47px;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.f-direction-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.f-direction-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.justify-content-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-content-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-9 {
+  margin-top: 9px;
+}
+
+.mt-11 {
+  margin-top: 11px;
+}
+
+.mt-13 {
+  margin-top: 13px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-18 {
+  margin-top: 18px;
+}
+
+.mt-35 {
+  margin-top: 35px;
+}
+
+.mt-47 {
+  margin-top: 47px;
+}
+
+.mt-125 {
+  margin-top: 125px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-4 {
+  margin-left: 4px;
+}
+
+.ml-7 {
+  margin-left: 7px;
+}
+
+.ml-9 {
+  margin-left: 9px;
+}
+
+.ml-12 {
+  margin-left: 12px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-23 {
+  margin-left: 23px;
+}
+
+.my-26 {
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.mx-17 {
+  margin-right: 17px;
+  margin-left: 17px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.py-26 {
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.px-17 {
+  padding-right: 17px;
+  padding-left: 17px;
+}
+
+.px-19 {
+  padding-right: 19px;
+  padding-left: 19px;
+}
+
+@media (min-width: 395px) {
+  .frame_height-1 {
+    height: Max(603px, calc(1.60 * (100vw - 2 * 17px)));
+  }
+  .frame_height-2 {
+    height: Max(675px, calc(1.80 * (100vw - 2 * 17px)));
+  }
+}
+
+@media (min-width: 647px) {
+  .d-md-none {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .frame {
+    border: 0.5px solid #8e8e8e;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 15px;
+  }
+  .frame_width {
+    width: 836px;
+  }
+  .frame_width-2 {
+    width: 866px;
+  }
+  .frame_height-1,
+  .frame_height-2 {
+    height: 350px;
+  }
+  .image {
+    width: 370px;
+    border-radius: 0;
+  }
+  .image-height-1,
+  .image-height-2 {
+    height: 289px;
+  }
+  .image-bg-1 {
+    background: no-repeat center/100% url("../images/AdobeStock_168443825 1.png");
+  }
+  .image-bg-2 {
+    background: no-repeat center/100% url("../images/ekskursii-po-spb-na-avtobuse 1.png");
+  }
+  .image-bg-3 {
+    background: no-repeat center/100% url("../images/music 1.png");
+  }
+  .novelty-1 {
+    top: 90px;
+    color: #fff;
+    background-color: #099ce8;
+  }
+  .novelty-3 {
+    top: 59px;
+    width: 120px;
+    height: 38px;
+    font-size: 13px;
+    color: #323232;
+    background-color: #ffd83b;
+    border-radius: 0;
+  }
+  .excursion-duration {
+    font-size: 14px;
+  }
+  .excursion-title {
+    width: 530px;
+    color: #000;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .excursion-start:hover,
+  .excursion-start-2:hover {
+    color: #fff;
+    background-color: #6ba6ff;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+  .excursion-start-lg_position {
+    position: absolute;
+  }
+  .excursion-start-2-lg_position {
+    position: relative;
+    bottom: 110px;
+  }
+  .left-neg-35 {
+    left: -35px;
+  }
+  li {
+    width: 540px;
+    color: #343434;
+    font-size: 18px;
+  }
+  .price {
+    font-size: 36px;
+  }
+  .berth-price {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .ruble-sign_desktop {
+    width: 12px;
+    height: 14px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 0.7px solid #fff;
+    vertical-align: middle;
+  }
+  .button {
+    height: 52px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: none;
+    font-size: 18px;
+    color: #292929;
+    background-color: #ffd83c;
+  }
+  .button-1,
+  .button-2,
+  .button_desktop {
+    width: 187px;
+    border-radius: 23px;
+    font-weight: 400;
+  }
+  .button-position-lg {
+    position: relative;
+    right: 218px;
+    bottom: 3px;
+  }
+  #second-screen-mobile {
+    position: relative;
+    top: 59px;
+  }
+  .vertical-align-lg-middle {
+    vertical-align: middle;
+  }
+  .d-lg-block {
+    display: block;
+  }
+  .d-lg-none {
+    display: none;
+  }
+  .d-lg-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .ml-lg-6 {
+    margin-left: 6px;
+  }
+  .ml-lg-14 {
+    margin-left: 14px;
+  }
+  .mx-lg_section-2 {
+    margin-left: calc((100vw - 846px) / 2 - 0px);
+    margin-right: calc((100vw - 866px) / 2);
+  }
+}
+
+@media (min-width: 1140px) {
+  .frame_width {
+    width: 1070px;
+  }
+  .frame_width-2 {
+    width: 1106px;
+  }
+  .frame_height-1,
+  .frame_height-2 {
+    height: 370px;
+  }
+  .image {
+    width: 473px;
+    border-radius: 1rem 0 0 1rem;
+  }
+  .image-height-1,
+  .image-height-2 {
+    height: 369px;
+  }
+  .novelty-1 {
+    top: 46px;
+    width: 154px;
+    height: 42px;
+    font-size: 16px;
+  }
+  .novelty-3 {
+    top: 59px;
+    width: 180px;
+    height: 45px;
+    font-size: 16px;
+  }
+  .excursion-title {
+    width: 530px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+  .excursion-start {
+    width: 73px;
+    height: 28px;
+    font-size: 16px;
+    background-color: #c5dcff;
+  }
+  .excursion-start-2 {
+    width: 73px;
+    height: 28px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #6ba6ff;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+  .excursion-start:hover,
+  .excursion-start-2:hover {
+    color: #fff;
+    background-color: #6ba6ff;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+  .excursion-start-2-lg_position {
+    left: 44px;
+  }
+  .left-neg-35 {
+    left: -35px;
+  }
+  .mx-lg_section-2 {
+    margin-left: calc((100vw - 1070px) / 2 - 9px);
+    margin-right: calc((100vw - 1106px) / 2);
+  }
+}

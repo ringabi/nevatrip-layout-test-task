@@ -1,0 +1,253 @@
+@media (min-width: 900px) {
+    .frame {
+        border: 0.5px solid $frame-color-1;
+        box-sizing: border-box;
+        border-radius: 15px;
+      }
+
+      .frame_width {
+        width: 836px;
+      }
+
+      .frame_width-2 {
+        width: 866px;
+      }
+      
+      .frame_height-1,
+      .frame_height-2 {
+        height: 350px;
+      }
+
+    .image {
+        width: 370px;
+        border-radius: 0;
+      }
+      
+      .image-height-1,
+      .image-height-2 {
+        height: 289px;
+      }
+      
+      .image-bg-1 {
+        background: no-repeat center/100% url("../images/AdobeStock_168443825 1.png");
+      }
+      
+      .image-bg-2 {
+        background: no-repeat center/100% url("../images/ekskursii-po-spb-na-avtobuse 1.png");
+      }
+
+      .image-bg-3 {
+        background: no-repeat center/100% url("../images/music 1.png");
+      }
+
+      .novelty-1 {
+        top: 90px;
+        color: $primary-color;
+        background-color: $background-blue-4;
+      }
+
+      .novelty-3 {
+        top: 59px;
+        width: 120px;
+        height: 38px;
+        font-size: 13px;
+        color: $text-color-6;
+        background-color: $background-yellow-3;
+        border-radius: 0;
+      }
+
+      .excursion-duration {
+        font-size: 14px;
+      }
+
+      .excursion-title {
+        width: 530px;
+        color: $secondary-color;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+      }
+
+      .excursion-start:hover,
+      .excursion-start-2:hover {
+        color: $primary-color;
+        background-color: $background-blue-3;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+      }
+        
+      .excursion-start-lg_position {
+        position: absolute;
+      }
+
+      .excursion-start-2-lg_position {
+        position: relative;
+        bottom: 110px;
+      }
+
+      .left-neg-35 {
+        left: -35px;
+      }
+
+      li {
+        width: 540px;
+        color: $text-color-4;
+        font-size: 18px;
+      }
+
+      .price {
+        font-size: 36px;
+      }
+      
+      .berth-price {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      .ruble-sign_desktop {
+        width: 12px;
+        height: 14px;
+        box-sizing: border-box;
+        border: 0.7px solid $primary-color;
+        vertical-align: middle;
+      }
+
+      .button {
+        height: 52px;
+        box-sizing: border-box;
+        border: none;
+        font-size: 18px;
+        color: $text-color-7;
+        background-color: $background-yellow-2;
+      }
+      
+      .button-1,
+      .button-2,
+      .button_desktop {
+        width: 187px;
+        border-radius: 23px;
+        font-weight: 400;
+      }
+
+      .button-position-lg {
+        position: relative;
+        right: 218px;
+        bottom: 3px;
+      }
+
+      #second-screen-mobile {
+        position: relative;
+        top: 59px;
+      }
+
+      .vertical-align-lg-middle {
+        vertical-align: middle;
+      }
+
+      .d-lg-block {
+          display: block;
+      }
+
+      .d-lg-none {
+          display: none;
+      }
+
+      .d-lg-flex {
+        display: flex;
+      }
+
+      .ml-lg-6 {
+        margin-left: 6px;
+      }
+
+      .ml-lg-14 {
+        margin-left: 14px;
+      }
+
+      .mx-lg_section-2 {
+        margin-left: calc((100vw - 846px) / 2 - 0px);
+        margin-right: calc((100vw - 866px) / 2);
+      }
+}
+
+@media (min-width: 1140px) {
+  .frame_width {
+    width: 1070px;
+  }
+
+  .frame_width-2 {
+    width: 1106px;
+  }
+  
+  .frame_height-1,
+  .frame_height-2 {
+    height: 370px;
+  }
+
+.image {
+    width: 473px;
+    border-radius: 1rem 0 0 1rem;
+  }
+  
+  .image-height-1,
+  .image-height-2 {
+    height: 369px;
+  }
+
+  .novelty-1 {
+      top: 46px;
+      width: 154px;
+      height: 42px;
+      font-size: 16px;
+    }
+
+    .novelty-3 {
+      top: 59px;
+      width: 180px;
+      height: 45px;
+      font-size: 16px;
+    }
+
+  .excursion-title {
+    width: 530px;
+    font-size: 26px;
+    line-height: 34px;
+  }
+
+  .excursion-start {
+    width: 73px;
+    height: 28px;
+    font-size: 16px;
+    background-color: $background-blue-2;
+  }
+
+  .excursion-start-2 {
+    width: 73px;
+    height: 28px;
+    font-size: 16px;
+    color: $primary-color;
+    background-color: $background-blue-3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .excursion-start:hover,
+  .excursion-start-2:hover {
+    color: $primary-color;
+    background-color: $background-blue-3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+
+  .excursion-start-2-lg_position {
+    left: 44px;
+  }
+
+  .left-neg-35 {
+    left: -35px;
+  }
+
+  .mx-lg_section-2 {
+    margin-left: calc((100vw - 1070px) / 2 - 9px);
+    margin-right: calc((100vw - 1106px) / 2);
+  }
+}

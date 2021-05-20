@@ -1,0 +1,44 @@
+$primary-color: #fff;
+$secondary-color: #000;
+$default-font-size: 16px;
+$border-indent: 17px;
+$frame-color: #828282;
+$frame-color-1: #8e8e8e;
+$text-color-1: #3e3e3e;
+$text-color-2: #9e9e9e;
+$text-color-3: #404040;
+$text-color-4: #343434;
+$text-color-5: #4b4b4b;
+$text-color-6: #323232;
+$text-color-7: #292929;
+$background-blue-1: #d9e8ff;
+$background-blue-2: #c5dcff;
+$background-blue-3: #6ba6ff;
+$background-blue-4: #099ce8;
+$background-blue-5: #7553ff;
+$background-yellow-1: #fed74b;
+$background-yellow-2: #ffd83c;
+$background-yellow-3: #ffd83b;
+$border-color: #cba500;
+
+html,
+body,
+img,
+div,
+section,
+header,
+article {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: 'Open Sans';
+  src: url('../assets/fonts/OpenSans-Regular.ttf');
+}
+
+.font-family-open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
