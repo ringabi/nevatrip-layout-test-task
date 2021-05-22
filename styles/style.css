@@ -314,7 +314,7 @@ button:focus {
 }
 
 .mr-20 {
-  margin-right: 20px;
+  margin-right: 8px;
 }
 
 .ml-4 {
@@ -369,6 +369,12 @@ button:focus {
 .px-19 {
   padding-right: 19px;
   padding-left: 19px;
+}
+
+@media (min-width: 350px) {
+  .mr-20 {
+    margin-right: 20px;
+  }
 }
 
 @media (min-width: 395px) {
